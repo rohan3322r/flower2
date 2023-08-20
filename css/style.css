@@ -1,0 +1,251 @@
+:root {
+    --primary-btn-background-color: rgba(229, 84, 115, 1);
+    --primary-btn-background-hover-color:rgba(229, 84, 115, 0.5);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"lato", sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.btn {
+    background-color: rgba(229, 84, 115, 1);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+img {
+    vertical-align: middle;
+}
+.text-left .btn{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-btn-background-hover-color) ;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-48 {
+    margin-bottom: 48px;
+}
+.flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+    padding-top: 50px;
+}
+.hero {
+    background-color:rgba(229, 84, 115, 0.2);
+}
+.left, .right {
+    max-width: 100%;
+}
+.right {
+   padding-left: 24px;
+}
+.left h2 {
+    font-size: 80px;
+}
+.description-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.featured {
+    padding-top: 178px;
+    padding-bottom: 128px;
+}
+.flex {
+    gap: 24px;
+    align-items: flex-end;
+    padding-left: 60px;
+}
+.flower-container a {
+    display: block;
+    color: #272727;
+}
+.flex .flower-container-one{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 340px;
+    height: 428px;
+    flex-shrink: 0; 
+    border-radius: 300px 300px 0px 0px;
+}
+.flex .flower-container-two {
+    background: rgba(5, 151, 160, 0.15);
+    width: 340px;
+    height: 428px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 300px 300px 0px 0px;
+}
+.flex .flower-container-three{
+    background: rgba(71, 125, 17, 0.15);
+    width: 340px;
+    height: 428px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    border-radius: 300px 300px 0px 0px;
+}
+.flex{
+    display: flex;
+    
+}
+.flex-3{
+  display: flex;
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 60px;
+    
+}
+.flex-3 .box-1 .inner-box{
+    padding-top: 40px;
+}
+.flex-3 .box-2 .inner-box{
+    padding-top: 40px;
+}
+.flex-3 .box-3 .inner-box{
+    padding-top: 40px;
+}
+.inner-box{
+    height: 150px;
+    width: 250px;
+    border: 0px 0px;
+    text-align: center;
+    direction: rtl;
+    row-gap: 0px;
+    padding-left: 100px;
+    padding-right: 40px;
+    background: rgba(39, 39, 39, 0.05); 
+    box-sizing: content-box;
+    border: 0px solid #272727;
+}
+.fact{
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    border: 0px solid #272727;
+    border-radius: 8px;
+    padding-top: 60px;
+    padding-left: 220px;
+}
+.text-left{
+   text-align: center;
+   padding-top: 150px;
+   
+}
+.text-center-3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #FFF;
+}
+.flex-2{
+    display: flex;
+    box-sizing:  1px solid #272727;
+    border-radius: 200px;
+    gap: 24px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.flex-2 .flower-container{
+   align-items: flex-end; 
+   border: 1px solid #272727;
+   
+}
+.flex .flower-container-1{
+    padding:  342px 296px 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.text-center-5{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #272727;
+    padding-top: 128px;
+    padding-bottom: 263px;
+    background-color:#111010;
+    -webkit-text-fill-color: #FFF;
+
+}
+span{
+    color: #E55473;
+    -webkit-text-fill-color: #E55473;
+
+}
+.text-center-5 p{
+    font-size: 15px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+} 
+.text-center-5 p-2{
+    font-size: 15px;
+    -webkit-text-fill-color: #858080;
+
+} 
+@media (max-width: 880px) {
+    .left h2 {
+        font-size: 60px;
+    }
+}
+@media (max-width: 684px) {
+    .flex {
+        flex-direction: row;
+    }
+}
+.Subscribe {
+    margin-top: 128px;
+    margin-bottom: 128px;
+    width: 1440px;
+    padding: 0;
+}
+.picture {
+    position: relative;
+}
+.age {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    bottom: 30px;
+}
+form.flex input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+}
+.text-center-4 h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 450px;
+}
+.text-center-4 p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 450px;
+}
